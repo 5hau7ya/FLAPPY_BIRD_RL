@@ -17,3 +17,4 @@ The repository includes a training progression graph tracking the agent's perfor
 * Peak Performance & Variance (Games 1,000+): The agent achieves its peak raw score (80+ points). The visible fluctuations in the moving average during later games perfectly demonstrate classic Q-learning variance and replay buffer saturation—challenges.
 
 ![Agent Training Progress](training.png)
+![AI Agent Gameplay](play.gif)
