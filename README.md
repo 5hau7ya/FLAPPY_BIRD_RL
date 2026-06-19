@@ -15,4 +15,4 @@ The repository includes a training progression graph tracking the agent's perfor
 * The Exploration Phase (Games 0–500): The agent relies heavily on an epsilon-greedy strategy, taking random actions to understand basic physics and collision penalties. Scores remain near zero.
 * The Convergence Phase (Games 500–1,000): As exploration decays, the agent begins exploiting its learned Q-values. The 10-game moving average rises sharply as the agent learns to successfully navigate pipe gaps.
 * Peak Performance & Variance (Games 1,000+): The agent achieves its peak raw score (80+ points). The visible fluctuations in the moving average during later games perfectly demonstrate classic Q-learning variance and replay buffer saturation—challenges.
-![Agent Training Progress](Agent Training Progress.png)
+![Agent Training Progress](training.png)
